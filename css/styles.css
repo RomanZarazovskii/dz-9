@@ -1,0 +1,73 @@
+.title {
+    padding-left: 680px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 600px;
+}
+
+.box {
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.box:nth-child(1) {
+    top: 20px;
+    left: 130px;
+    background-color: green;
+
+    z-index: 2;
+}
+
+.box:nth-child(2) {
+    top: 120px;
+    left: 280px;
+    background-color: blue;
+
+    z-index: 2;
+}
+
+.box:nth-child(3) {
+    top: 220px;
+    left: 430px;
+    background-color: red;
+    z-index: 1;
+}
+
+.menu-title {
+    padding-left: 680px;
+}
+
+/* Вправа 2 */
+
+.product {
+    width: 320px;
+    height: 730px;
+}
+
+.thumb {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
